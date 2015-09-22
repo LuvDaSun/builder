@@ -4,9 +4,10 @@ MAINTAINER  Elmer Bulthuis <elmer@luvdasun.com>
 
 RUN apt-get update -q && apt-get install -yq \
     git \
-    docker.io \
     postgresql-client \
     nodejs-legacy \
     npm \
-    python-pip
+    python-pip \
+    curl
+RUN curl -sSL https://get.docker.com/ | sh
 RUN pip install awscli
