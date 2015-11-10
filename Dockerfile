@@ -9,5 +9,6 @@ RUN apt-get update -q && apt-get install -yq \
     nodejs-legacy \
     npm \
     python-pip \
-    curl
+    curl \
+    lftp
 RUN pip install awscli
