@@ -10,5 +10,6 @@ RUN apt-get update -q && apt-get install -yq \
     npm \
     python-pip \
     curl \
-    lftp
+    lftp \
+    zip
 RUN pip install awscli
