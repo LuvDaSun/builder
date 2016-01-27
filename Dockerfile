@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 
 MAINTAINER  Elmer Bulthuis <elmer@luvdasun.com>
 
@@ -13,3 +13,4 @@ RUN apt-get update -q && apt-get install -yq \
     lftp \
     zip
 RUN pip install awscli
+
