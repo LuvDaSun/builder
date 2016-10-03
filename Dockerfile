@@ -11,7 +11,5 @@ RUN apt-get update -q && apt-get install -yq \
     python-pip \
     curl \
     lftp \
-    zip \
-    phantomjs \
-    xvfb
+    zip
 RUN pip install awscli
