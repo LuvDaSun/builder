@@ -13,10 +13,5 @@ RUN apt-get update -q && apt-get install -yq \
     lftp \
     zip \
     phantomjs \
-    firefox \
     xvfb
 RUN pip install awscli
-
-RUN Xvfb :10 -ac
-
-ENV DISPLAY 10
